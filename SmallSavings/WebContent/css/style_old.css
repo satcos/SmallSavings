@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #FCECEC url(../images/img01.jpg) repeat-x left top;
+}
+#header {
+	width: 940px;
+	height: 160px;
+	margin: 0px auto;
+	text-align:center;
+	padding-top: 0px;
+	background:url(../images/top.gif) no-repeat right bottom;
+//	image:url(nsep.gif) no-repeat left bottom;
+}
+
+#page {
+	width: 940px;
+	margin: 0px auto;
+	padding-top: 25px;
+}
+#payment {
+	width: 940px;
+	height:500px;
+	overflow:auto;
+	margin: 0px auto;
+	padding-top: 25px;
+}
+#content{
+	width: 540px;
+	float:left;
+}
+
+
+#side{
+	width:400px;
+	float:right;
+}
+
+.errmsg{
+	font-family:"Times New Roman", Times, serif;
+	font-size:12px;
+	color:#FF0000;
+}
+
+
+a:link {
+	color:#FF0000;
+	}
+a:visited{
+	color:#FF0000;
+	}
+a:hover {
+	color:#FF00FF;
+	}
+a:active{
+	color:#0000FF;
+	}
